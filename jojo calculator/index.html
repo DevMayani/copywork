@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form action="" name="calc">
+            <input class="screen" type="name" disabled name="screen">
+            <div class="cont">
+            <div class="box" onclick="calc.screen.value = ''">C</div>
+            <div class="box" onclick="calc.screen.value = '-'">+/-</div>
+            <div class="box" onclick="cal.screen.value = '%'">%</div>
+            <div class="box" onclick="calc.screen.value += '/'" id="equal">/</div>
+            <div class="box" onclick="calc.screen.value += '7'">7</div>
+            <div class="box" onclick="calc.screen.value += '8'">8</div>
+            <div class="box" onclick="calc.screen.value += '9'">9</div>
+            <div class="box" onclick="calc.screen.value += '*'" id="equal">*</div>
+            <div class="box" onclick="calc.screen.value += '4'">4</div>
+            <div class="box" onclick="calc.screen.value +='5'">5</div>
+            <div class="box" onclick="calc.screen.value += '6'">6</div>
+            <div class="box" onclick="calc.screen.value +='-'" id="equal">-</div>
+            <div class="box" onclick="calc.screen.value += '1'">1</div>
+            <div class="box" onclick="calc.screen.value += '2'">2</div>
+            <div class="box" onclick="calc.screen.value += '3'">3</div>
+            <div class="box" onclick="calc.screen.value += '+'" id="equal">+</div>
+            <div class="box" onclick="calc.screen.value += '0'" id="zero">0</div>
+            <div class="box" onclick="calc.screen.value += '+'" id="point">.</div>
+            <div class="box" onclick="calc.screen.value = eval(calc.screen.value)" id="equa">=</div>
+        </div>
+        </form>
+    </div>
+</body>
+</html>
