@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: orange;
+}
+#form{
+    margin: auto;
+    margin-top: 20px;
+    width: 50%;
+    height: 390px;
+    border:2px solid black
+}
+.display{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+select{
+    width: 355px;
+    height: 30px;
+   
+}
+input{
+    width: 340px;
+    height: 26px;
+    margin-right: 8px;
+}
+input[type="text"]{
+    width: 98%;
+    height: 30px;
+}
+h1{
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+}
+.butt{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 90px;
+    border: none;
+    border-radius: 30px;
+    margin-left: 20px;
+}
+.forum{
+    margin-top: 20px;
+}
+.cont{
+    margin-top: 30px;
+}
+#error{
+    margin-left: 600px;
+    font-size: xx-large;
+    color: rgb(230, 17, 17);
+    margin-top: 30px;
+    font-weight: 900;
+}
+#subjectError{
+    font-size: xx-large;
+    color: rgb(230, 17, 17);
+    font-weight: 900;
+}
+#result{
+    font-size: xx-large;
+    color: red;
+    text-align: center;
+}
